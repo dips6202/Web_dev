@@ -10,4 +10,55 @@
 
 #navbar{
     display: flex;
+    align-items: center;
 }
+
+#pic1{
+    margin: 10px 35px;
+}
+
+#pic1 img{
+    height : 56px;
+    margin : 13px 15px;
+
+}
+
+#navbar{
+    position: relative;
+}
+
+#navbar ul{
+    display: flex;
+}
+
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+  
+}
+
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover{
+    color: pink;
+    background-color: white;
+}
+
+
+
+
