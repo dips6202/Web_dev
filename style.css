@@ -59,6 +59,39 @@
     background-color: white;
 }
 
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+#home::before{
+    content: "";
+    background: url('../pic2.png') no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;  
+}
+
+#home.h1{
+    color: black;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.h-primary{
+    font-size: 4.0rem;
+    padding: 12px;
+}
+
+
+
+
 
 
 
